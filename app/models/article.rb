@@ -1,5 +1,5 @@
 class Article < ApplicationRecord
-  mount_uploader :videl, VideUploader
+  mount_uploader :video, VideoUploader
 
-  validates :title, :videl, :presence => true
+  validates :title, :video, :presence => true
 end
